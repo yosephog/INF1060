@@ -1,0 +1,7 @@
+CC= gcc
+CFLAGS= -wall -g
+
+oppgave2: oppgave2.c
+	$(CC) $(CFLAG) oppgav2.c -o oppgave2
+clean:
+	rm -f oppgave2
